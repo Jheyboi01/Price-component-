@@ -1,0 +1,153 @@
+/** Google font**/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+/** **  ***/
+
+body {
+    font-size: 15pt;
+    font-family: 'Lora', serif;
+}
+
+
+/** Container  **/
+
+.outerlayer{
+  max-width: 70%;
+  margin: 0 auto;
+  box-shadow: 7px 7px 15px rgba(0, 2, 3, 0.4);
+}
+
+.innerlayer{
+  display: flex;
+}
+/** **  **/
+
+/** Main content  **/
+
+.main-content{
+  background: #fff;
+  padding: 2rem;
+  line-height: 1.3rem;
+}
+
+.main-content h1{
+  color: #2cd4c9;
+  font-size: 28px;
+}
+.main-content h4{
+  color: #cbf73b;
+  font-size: 20px;
+  letter-spacing: .03rem;
+}
+.main-content p{
+  color: #999;
+  font-size: 18px;
+  line-height: 1.7rem;
+}
+/** **  **/
+
+
+/** Subscription session  **/
+
+.subscription{
+  background: #1db3a9;
+  flex: 1;
+  padding: 2rem;
+  color: #fff;
+}
+
+.subscription h1{
+  margin: 10px 0;
+}
+span{
+  font-size: 30px;
+  color: #e1e6e5;
+}
+.subscription p{
+  line-height: 0.5rem;
+  font-size: 15px;
+}
+.subscription button{
+  background: #cbf73b;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+  margin-top: 24px;
+}
+
+/** **  **/
+
+
+/** About session **/
+.about{
+  background: #2cd4c9;
+  flex: 1;
+  padding: 1.5rem;
+  color: #fff;
+}
+
+.about ul {
+  list-style: none;
+  padding-left: 0;
+}
+.about li{
+  line-height: 1.2rem;
+  color: #e1e6e5;
+}
+
+/** * **/
+
+
+/** Media screen  **/
+
+@media(min-width: 320px){
+  
+  body{
+    font-size: 12px;
+  }
+  
+  .main-content h1{
+    font-size: 18px;
+  }
+  .main-content h4{
+    font-size: 11px;
+  }
+  .main-content p{
+    font-size: 10px;
+    line-height: 1.2rem;
+  }
+  
+  .main-content{
+    padding: 1.2rem;
+  }
+  .innerlayer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .innerlayer h2{
+    font-size: 18px;
+  }
+  span{
+    font-size: 14px;
+  }
+  .innerlayer button{
+    width: 100%;
+    font-size: 14px;
+  }
+  .subscription p{
+    font-size: 12px;
+  }
+  .subscription{
+    padding: 1.5rem;
+  }
+  
+  .about h2{
+    margin-top: 10px;
+  }
+  .about ul{
+    margin-bottom: 10px;
+  }
+}
